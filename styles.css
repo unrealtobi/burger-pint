@@ -1,0 +1,38 @@
+#logo{
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+#cards1{ 
+    height: 25rem;
+    width: 40rem;
+
+  }
+  #img1{
+    height: 17rem;
+    object-fit: cover;
+    width: 27rem;
+  }
+  #img2{
+    height: 17rem;
+    object-fit: cover;
+    width: 40rem;
+  }
+  .cards-con{
+    margin-left: 300px;
+    margin-bottom: 25px;
+    justify-content: center;
+    
+  }
+  .card{
+    width: 50rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  #cards2{
+    height: 25rem;
+    margin-right: 210px;
+    width: 40rem;
+
+  }
