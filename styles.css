@@ -1,38 +1,63 @@
-#logo{
-    width: 100px;
-    height: 60px;
-    margin: 0 auto;
-    display: block;
+#logo {
+  width: 100px;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
 }
-#cards1{ 
-    height: 25rem;
-    width: 40rem;
+#cards1 {
+  height: 25rem;
+  width: 40rem;
+}
+#img1 {
+  height: 17rem;
+  object-fit: cover;
+  width: 27rem;
+}
+#img2 {
+  height: 17rem;
+  object-fit: cover;
+  width: 40rem;
+}
+.cards-con {
+  margin-left: 170px;
+  margin-bottom: 25px;
+}
+.card {
+  width: 50rem;
+  height: 20rem;
+  object-fit: cover;
+}
+#cards2 {
+  height: 25rem;
+  margin-right: 310px;
+  width: 40rem;
+}
+#gtf {
+  font-family: "Oswald", sans-serif;
+  color: #6f5e4d;
+  font-size: 36px;
+}
+#cardtext {
+  justify-content: inherit;
+  margin-right: 50px;
+  padding-bottom: 200px;
+  align-items: center;
+  /* padding: 33px; */
+}
+.cardcont {
+  display: flex;
+  /* flex-direction: column; */
+  /* text-align: center; */
+  padding-bottom: 200px;
+  margin-right: auto;
+}
+#btn2 {
+  height: 40px;
+  width: 150px;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  background-color: #E3000E;
+  align-items: center;
 
-  }
-  #img1{
-    height: 17rem;
-    object-fit: cover;
-    width: 27rem;
-  }
-  #img2{
-    height: 17rem;
-    object-fit: cover;
-    width: 40rem;
-  }
-  .cards-con{
-    margin-left: 300px;
-    margin-bottom: 25px;
-    justify-content: center;
-    
-  }
-  .card{
-    width: 50rem;
-    height: 20rem;
-    object-fit: cover;
-  }
-  #cards2{
-    height: 25rem;
-    margin-right: 210px;
-    width: 40rem;
-
-  }
+}
