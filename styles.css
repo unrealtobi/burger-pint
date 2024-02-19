@@ -37,19 +37,23 @@
   color: #6f5e4d;
   font-size: 36px;
 }
+#frs {
+  font-family: "Oswald", sans-serif;
+  color: #6f5e4d;
+  font-size: 36px;
+}
 #cardtext {
-  justify-content: inherit;
   margin-right: 50px;
   padding-bottom: 200px;
   align-items: center;
-  /* padding: 33px; */
+  padding: 33px;
 }
 .cardcont {
   display: flex;
-  /* flex-direction: column; */
+  justify-content: flex-end;
   /* text-align: center; */
-  padding-bottom: 200px;
-  margin-right: auto;
+  padding-bottom: 100px;
+  margin-left: 20rem;
 }
 #btn2 {
   height: 40px;
@@ -57,7 +61,89 @@
   border: none;
   font-family: "Oswald", sans-serif;
   color: #fff;
-  background-color: #E3000E;
-  align-items: center;
+  background-color: #e3000e;
+  
+}
+#btn1 {
+  height: 40px;
+  width: 150px;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  background-color: #e3000e;
+}
+.cardcont1 {
+  justify-content: flex-end;
+  display: flex;
+  margin-left: 8rem;
+  margin-bottom: 90px;
+}
+/* head text in menu */
+.cardmext {
+  font-family: "Oswald", sans-serif;
+}
+/* button for menu */
+#btnmenu {
+  font-family: "Oswald", sans-serif;
+  color: #f7be27;
+  background-color: #642f21;
+  border: none;
+}
+/* card content for menu cards */
+.card-body {
+  padding-top: 3.6rem;
+}
+/* description of menu text */
+.desctext {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.cardtran {
+  transition: all 1.1s;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  transition: transform 0.3s;
+}
+.cardtrans:hover .cardtran {
+  transform: scale(1.1);
+}
+.cardtrans {
+  overflow: hidden;
+  /* position: relative; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.navv{
+margin-top: 50rem;
+}
+
+/* .cardtrans {
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .cardtrans {
+    width: 48%;
+  }
+}
+
+@media (min-width: 768px) {
+  .cardtrans {
+    width: 48%;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardtrans {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardtrans {
+    width: 23%;
+  } */
 }
